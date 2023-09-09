@@ -1,0 +1,25 @@
+.item {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+}
+
+.item:first-child {
+   margin-right: auto;
+}
+
+.item button {
+display: flex;
+align-items: center;
+margin-left: 30px;
+justify-content: space-between;
+width: 80px;
+
+}
+
+.item button:hover,
+.item button:focus {
+   background-color: #c1ff9b;
+}

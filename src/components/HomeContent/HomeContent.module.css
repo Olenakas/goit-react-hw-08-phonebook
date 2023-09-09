@@ -1,0 +1,19 @@
+.textHomeContent{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 100px;
+   font-weight: lighter;
+
+}
+
+.inviteBoxText{
+   margin-top: 100px;
+   margin-bottom: 80px;
+
+}
+.inviteAddText{
+   font-size: 40px;
+   color:grey;
+}

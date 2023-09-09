@@ -1,0 +1,13 @@
+nav{
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.linkContacts{  
+   margin-right: 30px;
+   font-size: 30px;
+
+}

@@ -1,0 +1,18 @@
+.PaperProps {
+   /* elevation: 0; */
+   padding-left: 1rem;
+   padding-right: 1rem;
+   overflow: visible;
+   filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.32));
+   margin-top: 1.5rem;
+}
+
+.UserName {
+   padding-block: 4px;
+   font-weight: 500;
+}
+
+.UserEmail {
+   padding-block: 4px;
+   font-style: italic;
+}
