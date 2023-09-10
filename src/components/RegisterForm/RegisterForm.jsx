@@ -58,7 +58,7 @@ const RegisterForm = () => {
               name="name"
               type="text"
               value={name}
-              onChange={handleChange}              
+              onChange={handleChange}
               pattern="^([A-Za-z'-]{1,50})|([А-Яа-я'-]{1,50})$"
               title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
               required
@@ -93,7 +93,7 @@ const RegisterForm = () => {
             />
           </div>
           {passwordError && (
-            <p id="password-error">
+            <p id="password-error" style={{ color: 'red' }}>
               Password must be at least 8 characters long.
             </p>
           )}
@@ -108,4 +108,5 @@ const RegisterForm = () => {
 };
 
 export default RegisterForm;
+
 
