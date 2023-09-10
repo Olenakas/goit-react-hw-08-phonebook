@@ -7,8 +7,7 @@ import styles from './MenuContainer.module.css';
 const MenuContainer = ({ anchorEl, onCloseMenu }) => {
   const dispatch = useDispatch();
   const userName = useSelector(selectUserName);
-  const userEmail = useSelector(selectUserEmail);
-  const open = Boolean(anchorEl);
+  const userEmail = useSelector(selectUserEmail); 
 
   const handleMenuItemClick = () => {
     dispatch(logout());
