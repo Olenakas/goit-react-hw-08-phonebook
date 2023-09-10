@@ -33,7 +33,7 @@ const ContactForm = () => {
           name="name"
           label="Name"
           variant="outlined"
-          pattern="^([A-Za-z-']{1,50})|([А-Яа-я-']{1,50})$"
+          pattern="^([A-Za-zА-Яа-я'\- ]{1,50})$"
           title="Name may contain only letters, apostrophe, dash, and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
           required
           sx={{ mb: 2 }}

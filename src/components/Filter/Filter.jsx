@@ -10,10 +10,10 @@ const Filter = () => {
       label="Filter"
       name="filter"
       variant="outlined"
-      fullWidth
       onChange={(e) => dispatch(setFilter(e.target.value))}
     />
   );
 };
 
 export default Filter;
+

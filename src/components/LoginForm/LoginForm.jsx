@@ -50,7 +50,6 @@ const LoginForm = () => {
             <label htmlFor="password">Password *</label>
             <input
               id="password"
-              error={passwordError}
               name="password"
               type="password"
               value={formData.password}
@@ -75,4 +74,5 @@ const LoginForm = () => {
 };
 
 export default LoginForm;
+
 
