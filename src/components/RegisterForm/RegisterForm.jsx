@@ -58,7 +58,7 @@ const RegisterForm = () => {
               name="name"
               type="text"
               value={name}
-              onChange={handleChange}
+              onChange={handleChange}              
               pattern="^([A-Za-z'-]{1,50})|([А-Яа-я'-]{1,50})$"
               title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
               required
@@ -73,7 +73,7 @@ const RegisterForm = () => {
               type="email"
               value={email}
               onChange={handleChange}
-              pattern="^[\w\.-]+@([\w-]+\.)+[\w-]{2,4}$"
+              pattern="^[\w\.\-]+@([\w\-]+\.)+[\w\-]{2,4}$"
               title="Email may contain only letters, apostrophe, dash and spaces."
               required
               sx={{ mb: 2 }}
