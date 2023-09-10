@@ -12,10 +12,10 @@ const Navigation = () => {
   return (
     <>
       <nav>
-        <NavLink to="/" className={styles.link}> 
+        <NavLink to="/" className={styles.linkMenu}>          
         </NavLink>
         {isAuthorized && (
-          <NavLink to="/contacts" className={styles.linkContacts}>
+          <NavLink to="/contacts" className={styles.linkMenu}>
             Contacts
           </NavLink>
         )}
