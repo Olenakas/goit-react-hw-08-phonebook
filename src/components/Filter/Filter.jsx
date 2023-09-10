@@ -1,4 +1,3 @@
-import TextField from '@mui/material/TextField';
 import { useDispatch } from 'react-redux';
 import { setFilter } from 'redux/contacts/contactsOperations';
 
@@ -6,7 +5,7 @@ const Filter = () => {
   const dispatch = useDispatch();
 
   return (
-    <TextField
+    <input
       id="filter"
       label="Filter"
       name="filter"

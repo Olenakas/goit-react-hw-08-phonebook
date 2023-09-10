@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
-import './Appbar.module.css'; 
+
+
+import styles from './Appbar.module.css';
 
 const Appbar = () => {
   return (
-    <header className="appBar">
-      <div className="container">
+    <header className={styles.appBar}>
+      <div className={styles.container}>
         <Link to="/">
-          <h1 className="Logo">Phonebook</h1>
+          <p className={styles.logo}>Phonebook</p>
         </Link>
         <Navigation />
       </div>

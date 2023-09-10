@@ -23,7 +23,7 @@ const Contacts = () => {
     <>
       <Container className="container" maxWidth="sm" sx={{ pt: 2, pb: 2 }}>
         <ContactForm />
-        <h2>Contacts</h2>
+        <p>Contacts</p>
         <Filter />
         {!error && <ContactList />}
         {isLoading && !error && <Loader />}

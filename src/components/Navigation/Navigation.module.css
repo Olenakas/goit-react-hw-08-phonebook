@@ -1,13 +1,16 @@
 nav{
 
    display: flex;
-   align-items: center;
+   align-items: flex-start;
    justify-content: center;
+   gap: 20px;
+   flex-wrap: wrap;
+   
 
 }
 
 .linkContacts{  
-   margin-right: 30px;
-   font-size: 30px;
+   
+   font-size: 20px;
 
 }
