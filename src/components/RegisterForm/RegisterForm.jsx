@@ -59,7 +59,7 @@ const RegisterForm = () => {
               type="text"
               value={name}
               onChange={handleChange}
-              pattern="^([A-Za-z'-]{1,50})|([А-Яа-я'-]{1,50})$"
+              pattern="^([A-Za-z'\-]{1,50})|([А-Яа-я'\-]{1,50})$"
               title="Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
               required
               sx={{ mb: 2 }}
@@ -90,7 +90,7 @@ const RegisterForm = () => {
               value={password}
               onChange={handleChange}
               sx={{ mb: 2 }}
-            />
+              />
           </div>
           {passwordError && (
             <p id="password-error" style={{ color: 'red' }}>
